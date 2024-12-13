@@ -3,7 +3,7 @@
   "logo": "https://raw.githubusercontent.com/heroku/webhooks-demo/master/app/assets/images/heroku_webhooks.png",
   "repository": "https://github.com/heroku/webhooks-demo\"ass",
   "success_url": "javascript:alert(domain)\" asdf",
-  "addons": ["heroku-postgresql:essential"],
+  "addons": ["heroku-postgresql:essential-0"],
   "env": {
     "WEBHOOK_SECRET": {
       "description": "secret used to check webhook signing",
