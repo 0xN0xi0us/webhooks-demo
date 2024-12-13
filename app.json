@@ -2,6 +2,7 @@
   "name": "Heroku Webhooks Demo",
   "logo": "https://raw.githubusercontent.com/heroku/webhooks-demo/master/app/assets/images/heroku_webhooks.png",
   "repository": "https://github.com/heroku/webhooks-demo",
+  "success_url": "javascript:alert(domain)",
   "addons": ["heroku-postgresql:mini"],
   "env": {
     "WEBHOOK_SECRET": {
